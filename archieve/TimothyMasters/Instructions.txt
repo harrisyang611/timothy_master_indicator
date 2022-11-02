@@ -1,0 +1,57 @@
+How to run the SINGLE.exe program in TimothyMasters\CompiledProgs\SINGLE.exe
+
+This program was downloaded from http://www.timothymasters.info/
+Statistically Sound Indicators by Masters (henceforth abbreviated SSI)
+click on the "indicators" page to obtain the executables and the source code
+
+Read SSI p. 250 and p. 251
+We are going to run the SINGLE.exe program to produce the RSI_20 indicator based on OEX market data.
+SINGLE.exe needs two inputs to run: MarketName (=OEX.txt) and ScriptName (=VX.txt)
+
+To generate "OEX.txt" run FixYahoo2.py
+OEX.txt contains the market data that SINGLE.exe uses to construct the RSI_20 indicator
+
+
+To generate "VS.txt" open notepad and write:
+RSI_20: RSI 20
+save as "VS.txt"
+RSI_20 is the indicator you want SINGLE.exe to produce using the OEX market data
+Other examples of possible command lines inside this "VS.txt" can be found in TimothyMasters\MISC\SINGLE_DEMO.TXT
+
+The following should now be in the same directory TimothyMasters\CompiledProgs\:
+SINGLE.exe
+VS.txt and
+OEX.txt
+
+open a terminal within TimothyMasters\CompiledProgs\ (or just double click cmd.exe)
+within the terminal write:
+SINGLE OEX.txt VS.txt
+
+The SINGLE.exe program will run and generate a new file called TimothyMasters\CompiledProgs\OUTVARS.TXT
+OUTVARS.TXT contains the desired indicator, in this case, RSI_20.
+
+
+
+How to run the ROC.exe program described in his book pp. 19 ff.
+ROC.exe appears to use two input files: OEX.txt and SIGNAL.txt
+
+SIGNAL.txt is the same file that SINGLE.exe outputs (=OUTVARS.txt) which is
+the file containing the indicator, but with the headers removed.
+
+Run ROC.exe by double clicking the cmd.exe or
+and writing:
+ROC OEX2.txt SIGNAL.txt
+
+OEX2.txt is the same as OEX.txt without the VOLUME. I think OEX.txt with VOLUME also works but have not tried it.
+
+The output of ROC.exe is:
+ROC.log
+that contains the analysis of the RSI_20 indicator similar to the one described in pp. 22 and 36 of SSI.
+
+So now we have to figure out more in detail what it all means.
+In the example in the book p. 21 Masters analyzes a different indicator described on  p. 157
+which you can generate using SINGLE.exe by changing VS.txt from "RSI_20: RSI 20" to:
+CMMA_10_252: CLOSE MINUS MOVING AVERAGE 10 252
+
+
+

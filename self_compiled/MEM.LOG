@@ -1,0 +1,20 @@
+PAIRED memory log E:\Github\timothy_master\harris_version\MEM.LOG  10/26/22  13:57:46
+Alloc=1010304864:498  15360 bytes  1 allocs  total memory=0 MB
+Alloc=1010320272:498  8192 bytes  2 allocs  total memory=0 MB
+Alloc=1010328512:498  4096 bytes  3 allocs  total memory=0 MB
+Alloc=1010332656:498  4096 bytes  4 allocs  total memory=0 MB
+Alloc=1010336800:498  8192 bytes  5 allocs  total memory=0 MB
+Alloc=1010345040:498  8192 bytes  6 allocs  total memory=0 MB
+Alloc=1010353280:498  8192 bytes  7 allocs  total memory=0 MB
+Alloc=1010361520:498  8192 bytes  8 allocs  total memory=0 MB
+Alloc=1010369760:498  8192 bytes  9 allocs  total memory=0 MB
+Free=1010304864:498  8 allocs  total memory=0 MB
+Free=1010320272:498  7 allocs  total memory=0 MB
+Free=1010332656:498  6 allocs  total memory=0 MB
+Free=1010328512:498  5 allocs  total memory=0 MB
+Free=1010336800:498  4 allocs  total memory=0 MB
+Free=1010345040:498  3 allocs  total memory=0 MB
+Free=1010353280:498  2 allocs  total memory=0 MB
+Free=1010361520:498  1 allocs  total memory=0 MB
+Free=1010369760:498  0 allocs  total memory=0 MB
+Max memory use=0 MB  Dangling allocs=0

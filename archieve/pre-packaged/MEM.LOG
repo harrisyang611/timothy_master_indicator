@@ -1,0 +1,14 @@
+SINGLE memory log E:\Github\timothy_master\pre-packaged\MEM.LOG  10/11/22  22:16:24
+Alloc=19924832:0  8192 bytes  1 allocs  total memory=0 MB
+Alloc=19933072:0  16384 bytes  2 allocs  total memory=0 MB
+Alloc=19949504:0  16384 bytes  3 allocs  total memory=0 MB
+Alloc=19965936:0  16384 bytes  4 allocs  total memory=0 MB
+Alloc=19982368:0  16384 bytes  5 allocs  total memory=0 MB
+Alloc=19998800:0  16384 bytes  6 allocs  total memory=0 MB
+Free=19924832:0  5 allocs  total memory=0 MB
+Free=19933072:0  4 allocs  total memory=0 MB
+Free=19949504:0  3 allocs  total memory=0 MB
+Free=19965936:0  2 allocs  total memory=0 MB
+Free=19982368:0  1 allocs  total memory=0 MB
+Free=19998800:0  0 allocs  total memory=0 MB
+Max memory use=0 MB  Dangling allocs=0
